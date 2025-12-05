@@ -115,7 +115,7 @@ const App = () => {
       </div>
 
       {selectCity && (
-        <h2>You Selected {selectCity}, {selectStatus}, {selectedCountry}</h2>
+        <h2>You Selected {selectCity}, <span style={{color: "grey"}}>{selectStatus}</span>, <span style={{color: "grey"}}>{selectedCountry}</span></h2>
       )}
 
     </div>
